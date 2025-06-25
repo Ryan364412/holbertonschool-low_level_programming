@@ -1,2 +1,2 @@
 #!/bin/bash
-ggc -c  $CFILE
+0 $CFILE
