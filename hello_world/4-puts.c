@@ -1,3 +1,5 @@
+gcc
+
 #include <studio.h>
 
 /**
@@ -9,4 +11,4 @@ int main(void)
 {
 
 }
-0
+
