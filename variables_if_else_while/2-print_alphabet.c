@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio>
 
-./' betty-doc.pl main.c
+'/' betty-doc.pl main.c
 int main(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+		putchar (c);
 	putchar('\n');
 
 	return 0;
 }
-
