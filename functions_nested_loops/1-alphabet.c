@@ -1,17 +1,17 @@
-#include "main"
+#include "main.h"
 
 /**
- * print_alphabet - prints the lowercase alphatbet followed by a new line
- *
+ * print_alphabet - Prints the lowercase alphabet followed by a new line.
  */
-void print_alphatbet(void)
+void print_alphabet(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int i = 0;
+    char letters[] = "abcdefghijklmnopqrstuvwxyz\n";
+    int i = 0;
 
-	while (letters[i] != '\0')
-	{_putchar(letters[i]);
-		i++;
-	}
-	return (0);
+    while (letters[i] != '\0')
+    {
+        _putchar(letters[i]);
+        i++;
+    }
 }
+
