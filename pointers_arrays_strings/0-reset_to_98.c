@@ -1,12 +1,14 @@
-#include <stdio.h>
 #include "main.h"
 
-int main(void)
-{
-    int value = 0;
-    printf("Before: %d\n", value);
-    reset_to_98(&value);
-    printf("After: %d\n", value);
-    return (0);
-}
+/**
+ * reset_to_98 - function that takes a pointer to an int as parameter and
+ * updates the value it points to to 98.
+ *
+ * @n: This is the entry
+ *
+ */
 
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
