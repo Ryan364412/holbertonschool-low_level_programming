@@ -1,12 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
 int _putchar(char c);
 void print_alphat(void);
 void puts_half(char *str);
-
-=======
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -15,6 +12,9 @@ int _putchar(char c);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
->>>>>>> 071682fd641f424b60a8694a9f5791fd26285dfa
+void print_array(int *a, int n);
+
+
+
 #endif /* MAIN_H */
 
