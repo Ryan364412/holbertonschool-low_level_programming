@@ -11,5 +11,10 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *strn);
 void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
+
+
+
+
 #endif /* MAIN_H */
 
