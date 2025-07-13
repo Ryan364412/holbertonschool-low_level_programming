@@ -12,7 +12,7 @@ void puts2(char *str);
 void puts_half(char *strn);
 int _isupper(int c);
 int _isdigit(int c);
-
+int mul(int a, int b);
 
 
 #endif /* MAIN_H */
