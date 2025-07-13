@@ -5,7 +5,7 @@ int _putchar(char c);
 void print_alphat(void);
  int _islower(int c);
 int _isalpha(int c);
-
+int print_sign(int n);
 
 
 
