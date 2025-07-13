@@ -11,7 +11,7 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *strn);
 int _isupper(int c);
-
+int _isdigit(int c);
 
 
 
