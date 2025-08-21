@@ -1,13 +1,18 @@
 #include<stdio.h>
-#include "main.h"
+#include "main"
 
-int(abs)
+void jack_bauer(void)	
 {
-	int i,n;
-
-	if(i = 0; i <= 23; i++);
-	return(i);
+	int hour;
+	int minute;	
+	
+for (hour = 0; hour <= 23; hour++);
 	{
-		else(n = 0; n <= 59; n++);
-		return(0);
+		for (minute = 0; minute <= 59; minute++);
+				{
+					putchar hour ('')
+					putchar
+
+	
+	
 	}
